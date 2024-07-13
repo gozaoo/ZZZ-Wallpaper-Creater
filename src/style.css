@@ -1,0 +1,40 @@
+@font-face {
+  font-family: zzz_font_normal;
+  src: url(./assets/font_normal.ttf);
+}
+:root {
+  font-family: zzz_font_normal;
+  /* line-height: 1.5; */
+
+  /* font-size: 1rem; */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --theme-color-normal: #d6d6d6;
+  --theme-color-active-font: #000;
+  --theme-color-active: #d8fa00;
+  --theme-color-active-anime1: #d8fa00;
+  --theme-color-active-anime2: #94ad00;
+
+  --theme-background-main: #000;
+  --theme-background-item: #121212;
+
+  --theme-border-color-normal:#767678;
+  --theme-border-color-active:#d8fa00;
+}
+@keyframes bottomActiveBackground {
+    0%,100%{
+      background-color: var(--theme-color-active);
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.07);
+      background-color: var(--theme-color-active-anime2);
+    }
+}
