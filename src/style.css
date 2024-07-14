@@ -2,7 +2,7 @@
   font-family: zzz_font_normal;
   src: url(./assets/font_normal.ttf);
 }
-:root {
+:root,input {
   font-family: zzz_font_normal;
   /* line-height: 1.5; */
 
@@ -27,6 +27,7 @@
 
   --theme-border-color-normal:#767678;
   --theme-border-color-active:#d8fa00;
+  --border-value-normal:.33em solid var(--theme-border-color-normal);
 }
 @keyframes bottomActiveBackground {
     0%,100%{
