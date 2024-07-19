@@ -2,6 +2,11 @@
   font-family: zzz_font_normal;
   src: url(./assets/font_normal.ttf);
 }
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
 :root,input {
   font-family: zzz_font_normal;
   /* line-height: 1.5; */
